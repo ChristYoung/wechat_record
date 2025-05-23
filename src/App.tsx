@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button"
+import { Layout } from './layout/Layout';
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button className='cursor-pointer'>Click me</Button>
+    <div className="flex flex-col items-center justify-center h-full">
+      <Layout />
     </div>
   )
 }
