@@ -1,11 +1,11 @@
-import { Layout } from './layout/Layout';
+import { ChatGenerator } from "@/pages/ChatGenerator";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center h-full">
-      <Layout />
+    <div className="min-h-screen bg-gray-100">
+      <ChatGenerator />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
